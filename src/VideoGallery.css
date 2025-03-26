@@ -1,0 +1,46 @@
+/* VideoGallery.css */
+.container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-title {
+    color: #343a40;
+  }
+  
+  .btn-outline-primary {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  header h1 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .video-container video {
+    max-width: 40%; /* Limite la taille maximale de la vidéo dans la modal */
+    height: auto;   /* Conserve les proportions de la vidéo */
+    display: block;
+    margin: 0 auto;
+  }
+
+  
+  header h3, header h5 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+  }
+  

@@ -251,7 +251,7 @@ const VideoGallery = () => {
     <div className="container my-5">
       <div className="container">
         <header className="text-center mb-5">
-          <h4 className="display-4">Contrôle pratique (Mi-Semestre)<br/> Programmation 3 (POO)</h4>
+          <h4 className="display-4">Contrôle pratique (Mi-Semestre)<br/> Programmation 3 </h4>
           <h4 className="text-muted">Licence Informatique ENS Marrakech</h4>
           <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
           <p style={{ color: "red" }}>

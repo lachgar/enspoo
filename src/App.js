@@ -251,15 +251,44 @@ const VideoGallery = () => {
   return (
     <div className="container my-5">
       <div className="container">
-        <header className="text-center mb-5">
-          <h4 className="display-4">Contrôle pratique (Mi-Semestre)<br/> Programmation 3 </h4>
-          <h4 className="text-muted">Licence Informatique ENS Marrakech</h4>
-          <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
-          <p style={{ color: "red" }}>
-            Il est impératif d'utiliser les conceptions fixées dans chaque travail.
-          </p>
-        </header>
-      </div>
+  <header className="text-center mb-5">
+    <h4 className="display-4">
+      Contrôle pratique (Mi-Semestre)<br /> Programmation 3
+    </h4>
+    <h4 className="text-muted">Licence Informatique ENS Marrakech</h4>
+    <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
+    <p style={{ color: "red" }}>
+      Il est impératif d'utiliser les conceptions fixées dans chaque travail.
+    </p>
+  </header>
+
+  <section className="mb-5">
+    <h5 className="fw-bold">Contexte des projets développés</h5>
+    <p>
+      Dans le cadre de cette évaluation, les étudiants ont développé des
+      applications en <strong>Java</strong>, en adoptant une architecture en
+      couches (présentation, métier, accès aux données) et en suivant les
+      principes de la <strong>programmation orientée objet (POO)</strong>.
+    </p>
+    <p>
+      Chaque application est connectée à une base de données <strong>MySQL</strong> via
+      <strong> JDBC</strong>. Les projets mettent en œuvre diverses
+      fonctionnalités avancées, notamment :
+    </p>
+    <ul>
+      <li>Envoi d’e-mails avec <strong>JavaMail API</strong></li>
+      <li>Visualisation de données à l’aide de <strong>JFreeChart</strong></li>
+      <li>Génération d’un installateur via <strong>Inno Setup</strong></li>
+      <li>Création d’une <strong>vidéo de démonstration</strong> de l'application</li>
+    </ul>
+    <p>
+      L’objectif est de développer des logiciels robustes et bien structurés,
+      en respectant les bonnes pratiques de conception, de codage et de
+      déploiement.
+    </p>
+  </section>
+</div>
+
 
       <div className="row">
         {projects.map((project, index) => (

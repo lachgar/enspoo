@@ -251,43 +251,50 @@ const VideoGallery = () => {
   return (
     <div className="container my-5">
       <div className="container">
-  <header className="text-center mb-5">
-    <h4 className="display-4">
-      Contrôle pratique (Mi-Semestre)<br /> Programmation 3
-    </h4>
-    <h4 className="text-muted">Licence Informatique ENS Marrakech</h4>
-    <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
-    <p style={{ color: "red" }}>
-      Il est impératif d'utiliser les conceptions fixées dans chaque travail.
-    </p>
-  </header>
+    <header className="text-center mb-5">
+      <h4 className="display-4">
+        Contrôle pratique (Mi-Semestre)<br /> Programmation 3
+      </h4>
+      <h4 className="text-muted">Licence Informatique ENS Marrakech</h4>
+      <h5 className="text-secondary">Pr. Mohamed LACHGAR</h5>
+      <p style={{ color: "red" }}>
+        Il est impératif d'utiliser les conceptions fixées dans chaque travail.
+      </p>
+    </header>
 
-  <section className="mb-5">
-    <h5 className="fw-bold">Contexte des projets développés</h5>
-    <p>
-      Dans le cadre de cette évaluation, les étudiants ont développé des
-      applications en <strong>Java</strong>, en adoptant une architecture en
-      couches (présentation, métier, accès aux données) et en suivant les
-      principes de la <strong>programmation orientée objet (POO)</strong>.
-    </p>
-    <p>
-      Chaque application est connectée à une base de données <strong>MySQL</strong> via
-      <strong> JDBC</strong>. Les projets mettent en œuvre diverses
-      fonctionnalités avancées, notamment :
-    </p>
-    <ul>
-      <li>Envoi d’e-mails avec <strong>JavaMail API</strong></li>
-      <li>Visualisation de données à l’aide de <strong>JFreeChart</strong></li>
-      <li>Génération d’un installateur via <strong>Inno Setup</strong></li>
-      <li>Création d’une <strong>vidéo de démonstration</strong> de l'application</li>
-    </ul>
-    <p>
-      L’objectif est de développer des logiciels robustes et bien structurés,
-      en respectant les bonnes pratiques de conception, de codage et de
-      déploiement.
-    </p>
-  </section>
-</div>
+    <section className="mb-5">
+      <h5 className="fw-bold">Contexte des projets développés</h5>
+      <p>
+        Dans le cadre de cette évaluation, les étudiants ont développé des
+        applications en <strong>Java</strong>, en adoptant une architecture en
+        couches (présentation, métier, accès aux données) et en suivant les
+        principes de la <strong>programmation orientée objet (POO)</strong>.
+      </p>
+      <p>
+        Chaque projet repose sur une modélisation initiale à l’aide de
+        diagrammes <strong>UML</strong> (cas d’utilisation, classes),
+        ce qui permet une conception claire et structurée de l’application.
+      </p>
+      <p>
+        La base de données utilisée est <strong>MySQL</strong>, avec
+        l’utilisation de <strong>SQL</strong> pour la création des tables et
+        l’écriture des requêtes. La communication entre Java et MySQL est
+        assurée via <strong>JDBC</strong>.
+      </p>
+      <p>Les projets intègrent également les fonctionnalités suivantes :</p>
+      <ul>
+        <li>Envoi d’e-mails avec <strong>JavaMail API</strong></li>
+        <li>Visualisation de données avec <strong>JFreeChart</strong></li>
+        <li>Création d’un installateur via <strong>Inno Setup</strong></li>
+        <li>Enregistrement d’une <strong>vidéo de démonstration</strong></li>
+      </ul>
+      <p>
+        L’objectif est de produire des logiciels robustes, bien structurés, avec
+        une approche professionnelle couvrant toutes les étapes : modélisation,
+        développement, test et déploiement.
+      </p>
+    </section>
+  </div>
 
 
       <div className="row">

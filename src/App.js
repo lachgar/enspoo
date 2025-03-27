@@ -82,7 +82,7 @@ const projects = [
     "title": "Gestion des profs vacataires",
     "developer": "Zineb BIDAS",
     "videoUrl": "/videos/video11.mp4",
-    "githubUrl": "https://github.com/Zineb2004-beep/Gestion_des_profs_vacataire_project/blob/52d1bc79c5107e38a4921a82500a3d08e9c87a1b/README.md"
+    "githubUrl": "https://github.com/Zineb2004-beep/Gestion_des_profs_vacataire_project/blob/main/README.md"
   },
   {
     "number": 12,
@@ -98,7 +98,7 @@ const projects = [
     "videoUrl": "/videos/video13.mp4",
     "githubUrl": "https://github.com/bouzdigZakaria/projetctrl2/blob/master/README.md"
   },
-  
+
   {
     "number": 14,
     "title": "Suivi des projets de fin d'etudes",

@@ -284,7 +284,7 @@ const VideoGallery = () => {
       <p>Les projets intègrent également les fonctionnalités suivantes :</p>
       <ul>
         <li>Envoi d’e-mails avec <strong>JavaMail API</strong></li>
-        <li>Visualisation de données avec <strong>JFreeChart</strong></li>
+        <li>Visualisation des données avec <strong>JFreeChart</strong></li>
         <li>Création d’un installateur via <strong>Inno Setup</strong></li>
         <li>Enregistrement d’une <strong>vidéo de démonstration</strong></li>
       </ul>
